@@ -53,8 +53,5 @@ if st.button('Calcula IMC'):
     else:
         st.error('Peso e altura devem ser digitados e corresponder a número diferente de zero.')
 
-conn = st.connection('mysql', type='sql')
-
-
 
 
